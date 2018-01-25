@@ -38,6 +38,7 @@ Thumbs.db
 
 # Other #
 #####################
+*.swp
 .env
 config.js
 node_modules/
