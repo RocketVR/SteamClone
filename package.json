@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/compiled/index.js",
     "dev-server": "nodemon --exec babel-node --presets env,react -- server/index.js",
-    "test": "mocha -R spec --compilers jsx:babel-register,js:babel-register spec/*.spec.js"
+    "test": "mocha -R spec --compilers jsx:babel-register,js:babel-register spec/*.spec.js --exit"
   },
   "repository": {
     "type": "git",
