@@ -38,6 +38,11 @@ npm i
 npm run dev-server
 ```
 
+### Configuration
+
+rocket! uses the `dotenv` to configure environment variables and requires the following in the .env file located in the root of the project directory:
+- NODE_ENV=development
+
 ### Roadmap
 
 View the project roadmap [here](LINK_TO_DOC)
