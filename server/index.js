@@ -22,11 +22,7 @@ if (process.env.NODE_ENV === 'development') {
   /* eslint-enable */
 }
 
-app.use(express.static(assets))
+app.use(express.static(assets));
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-app.get('/', (req, res) => {
-
-});
